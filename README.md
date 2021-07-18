@@ -2,8 +2,8 @@
 
 ---
 ### Getting Started
-- For use kafka, you have to download the version of the project [Here](https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz)
-- The version of kafka used in this project was **_2.13-2.8.0_**
+- To use kafka, you have to download the version of the project [Here](https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz)
+- The version of kafka used in this project is **_2.13-2.8.0_**
 
 Before start Apache Kafka, we need to do the following:
 ```
@@ -26,7 +26,7 @@ Open another terminal session and run:
 bin/kafka-server-start.sh config/server.properties
 ```
 
-If you want to start kafta on docker locally, just run the command inside the root directory of the project:
+If you want to start kafta on docker locally, just run the following command inside the root directory of the project:
 ```
 docker-compose up
 ```
@@ -47,8 +47,8 @@ bin/kafka-console-consumer.sh --topic novice-players --from-beginning --bootstra
 
 ### Command to run spring boot
 
-Navigate to the root of the project (e.g. cd path/to/the/project)
-and open a terminal and run
+Navigate to the root of the project (e.g. cd path/to/the/project), 
+open a terminal and run
 
 - Maven
 ```
