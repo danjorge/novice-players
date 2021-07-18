@@ -4,7 +4,6 @@ import com.truelogic.noviceplayers.model.dto.PlayersDTO;
 import com.truelogic.noviceplayers.model.dto.ResultDTO;
 import com.truelogic.noviceplayers.repository.PlayerRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 

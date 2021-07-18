@@ -59,3 +59,11 @@ open a terminal and run
 ```
 ./gradlew bootRun
 ```
+
+There are some unit and integration tests and can be executed with the following command
+```
+#Unit
+./gradlew :test --tests "com.truelogic.noviceplayers.service.PlayerServiceTest"
+#Integration
+./gradlew :test --tests "com.truelogic.noviceplayers.kafka.EmbeddedKafkaIntegrationTest"
+```
